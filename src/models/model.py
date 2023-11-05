@@ -8,6 +8,10 @@ from transformers import AutoModelForSeq2SeqLM, AutoModelForCausalLM, AutoTokeni
 import torch
 import transformers
 
+""" Reference:
+    https://github.com/s-nlp/detox/tree/main
+"""
+
 
 t5name = "s-nlp/t5-paraphrase-paws-msrp-opinosis-paranmt"
 model_path = "s-nlp/gpt2-base-gedi-detoxification"
