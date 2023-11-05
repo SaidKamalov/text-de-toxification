@@ -51,4 +51,7 @@ text-detoxification
     └── visualization   # Scripts to create exploratory and results oriented visualizations
         └── visualize.py
 ```
-
+## How to use:
+1. First of all sequently run all notebooks to create intermediate data files. Do not forget to correctly specify path to filtered.tsv
+2. Then you can play with all files from model directoy, but remember to run them from root directory (assignment)
+3. Run main.py to translate your sentences
